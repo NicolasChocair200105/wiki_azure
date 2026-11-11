@@ -184,13 +184,3 @@ export default function App() {
     </div>
   );
 }
-```
-
-### ¿Qué se agregó para que se vea el uso real de las Skills?
-
-1. **(apple-motion) La Píldora Mágica:** Presta atención al menú de la izquierda cuando hagas clic en un módulo. Verás que el fondo azul no "aparece y desaparece", sino que **se desliza** físicamente de un botón a otro. Eso es inercia pura.
-2. **(apple-look) Efectos de Profundidad (Blur):** Si pruebas achicar un poco la ventana del navegador, notarás que la tarjeta principal blanca hace un poco de sombra. Además, la barra lateral es como un cristal empañado; podrías poner algo de color de fondo y se vería a través de ella.
-3. **Buscador en Vivo:** Hay una barra de búsqueda arriba del menú. Escribe "Zero Trust" o "MFA" y verás cómo la lista filtra instantáneamente con animaciones.
-4. **Etiquetas (Tags):** Agregué las pastillas grises debajo del título de la información para darle más estructura visual a la información que lee el profesor.
-
-**Guarda el archivo y cuéntame qué te parece el cambio al verlo en el navegador.** ¡Es un diseño digno de una aplicación pagada para macOS! Si te convence, el botón "Deploy" en Vercel actualizará tu URL anterior automáticamente (solo debes hacer un nuevo `git commit` y `git push`).
